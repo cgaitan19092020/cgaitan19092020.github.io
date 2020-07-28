@@ -1,0 +1,25 @@
+#blog h5, h6 {
+    text-align: center;
+    color: blue;
+    font-size: 1em;
+}
+
+#blog .proyecto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog img {
+    justify-content: center;
+    margin:20px;
+    border-top: 80%;
+    border: 5px solid #1565c0;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}
+
+
