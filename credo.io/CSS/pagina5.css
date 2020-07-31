@@ -5,7 +5,7 @@
   
 }
 body{
-  background: rgba(243, 236, 143, 0.602); 
+    background: rgba(243, 236, 143, 0.602); 
     text-align: justify;
    
   
@@ -69,29 +69,53 @@ body{
 
   }
 
-#bienvenidos{ 
+#bienvenidos ul{ 
  padding-top: 10px;
- padding-left: 10px;
+ padding-left: 30px;
  padding-right: 10px;
  font-family: Arial, Helvetica, sans-serif; 
- color: hsl(0, 98%, 45%)
+ color:  hsl(0, 98%, 45%)
   
 
 }
-#bienvenidos h1{ 
-  text-align: center;
-  font-size: 1.2em;
-  background: #ffdb11;
-  border-radius: 6px;
-  padding: 5px 20px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: hsl(222, 96%, 33%);
+#bienvenidos li{ 
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  hsl(222, 96%, 33%)
+    
+     
    
- 
- }
+   }
+#bienvenidos{ 
+    padding-top: 10px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color:  hsl(0, 98%, 45%)
+     
+    
+   }
+   #bienvenidos h1{ 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background: #ffdb11;
+    border-radius: 6px;
+    padding: 5px 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color:  hsl(222, 96%, 33%)
+     
+   
+   }
+   #bienvenidos p{ 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+   
+   }
 #banner img{ 
     width: 755px;
     height: 300px;
@@ -104,12 +128,12 @@ body{
    
    }
 #listas h3{ 
-  font-size: 1.2em;
+    font-size: 1em;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     text-align: justify;
-    color: hsl(222, 96%, 33%);
+    color:  hsl(222, 96%, 33%)
   
    }
    #listas ul{ 
@@ -121,28 +145,31 @@ body{
    }
 
    #fortalezas h2{ 
-      font-size: 1.2em;
-      background: #ffdb11;
-      border-radius: 6px;
-      padding: 5px 20px;
-      padding-top: 10px;
-      padding-left: 40px;
-      padding-right: 10px;
-      text-align: center;
-      color:  hsl(222, 96%, 33%);
-   }
-   #fortalezas{ 
+    font-size: 1.3em;
     padding-top: 10px;
+    text-align: center;
+    color:  hsl(222, 96%, 33%);
+    background: #ffdb11;
+    border-radius: 6px;
+    padding: 5px 10px;
+    
+   }
+
+   #conten { 
     padding-left: 10px;
     padding-right: 10px;
-    
-    
- }
-
-
-   #conten{ 
-   font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  hsl(222, 96%, 33%);
+   
    }
+   #conten p{ 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: justify;
+    color:  hsl(222, 96%, 33%);
+   }
+
 
   footer{ 
     font-family: Arial, Helvetica, sans-serif;
@@ -151,9 +178,8 @@ body{
     height: 60px;
     padding-top: 20px;
     text-align: center;
-    color: hsl(222, 96%, 33%);
+    color:  hsl(222, 96%, 33%)
   }
-
   #menu h2 a{ 
     color:  hsl(0, 100%, 99%);
     display: inline-block;
@@ -162,8 +188,18 @@ body{
     text-decoration: none;
     background: hsl(0, 98%, 45%);
     padding: 5px 20px;
-    margin-top: 40px; 
+    margin-top: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    
-
   }
+
+
+  #conten2 h3{ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color:  hsl(222, 96%, 33%);
+}
+#conten2 p{ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color:  hsl(0, 98%, 45%);
+}
